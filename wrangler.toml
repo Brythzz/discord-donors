@@ -1,0 +1,5 @@
+name = "discord-donors"
+main = "./src/server.js"
+compatibility_date="2022-02-26"
+
+workers_dev = true

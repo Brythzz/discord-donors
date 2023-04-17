@@ -1,0 +1,20 @@
+{
+  "name": "discord-donors",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "wrangler dev src/server.js",
+    "publish": "wrangler publish"
+  },
+  "dependencies": {
+    "discord-api-types": "^0.34.0",
+    "discord-verify": "^1.0.2",
+    "itty-router": "^3.0.12"
+  },
+  "devDependencies": {
+    "@discordjs/rest": "^1.7.0"
+  }
+}
