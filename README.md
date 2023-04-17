@@ -44,7 +44,9 @@ On the [Admin Page](https://admin.foxycart.com), click the `integrations` tab an
 On the [Developer Dashboard](https://developer.paypal.com/dashboard), click the `Apps & Credentials` tab and click `Create App`. To create live credentials, you will need a Business Account.
 
 ### Deployment
+> We now need to register the Discord slash command and push the code to Cloudflare
 ```
 $ npm i
+$ DISCORD_TOKEN=<token> CLIENT_ID=<discord_client_id> GUILD_ID=<discord_server_id> node ./src/register.js
 $ wrangler publish
 ```
