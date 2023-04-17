@@ -10,7 +10,7 @@ You'll first need a [Discord app](https://discord.com/developers/applications) w
 
 Next, you'll need to create a Cloudflare Worker
 - Visit the [Cloudflare dashboard](https://dash.cloudflare.com)
-- Click on the `Workers` tab and create a new service
+- Click on the `Workers` tab and create a new service with the name `discord-donors`
 - Install the [Wrangler CLI](https://developers.cloudflare.com/workers/cli-wrangler/install-update) and set it up
 
 ### Storing secrets
